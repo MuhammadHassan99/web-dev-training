@@ -7,3 +7,35 @@
   background-color: lightcoral;
   border: red;
 }
+.container {
+  background-color: aqua;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container {
+  background-color: rgba(111, 223, 89, 0.329);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 30px;
+  color: rgb(77, 73, 73);
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#typed-value {
+  border-radius: 5px;
+  border: 1px solid rgb(77, 73, 73);
+  height: 30px;
+}
+#start {
+  margin: 10px;
+  background-color: rgba(105, 105, 252, 0.527);
+  text-decoration: none;
+  border-radius: 20px;
+}
